@@ -8,7 +8,12 @@
   # instead of needing to change this file to switch environments.
   env:
     targetEnv: dev
-
+# .github/actions/checkout/action.yml
+  name: 'Checkout'
+  description: 'Checkout the repository'
+  runs:
+    using: 'node12'
+    main: 'index.js'
   # The overall workflow name will be Azure Bicep. This will show up in the
   # GitHub Action page.
   name: Azure Bicep
