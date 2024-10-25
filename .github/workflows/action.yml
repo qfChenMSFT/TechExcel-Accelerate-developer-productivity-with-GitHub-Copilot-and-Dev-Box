@@ -1,6 +1,0 @@
-# .github/actions/checkout/action.yml
-name: 'Checkout'
-description: 'Checkout the repository'
-runs:
-  using: 'node12'
-  main: 'index.js'
